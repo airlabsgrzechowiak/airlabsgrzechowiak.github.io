@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600,700&subset=latin-ext");
+@import "~tachyons-sass/tachyons.scss";
+
+body {
+  font-family: Lato;
+}
+
+$golden: #CCA876;
+
+.golden {
+  color: $golden;
+}
+
+.b--golden {
+  border-color: $golden;
+}
