@@ -10,6 +10,8 @@ Vue.use(require('vue-scrollto'), { offset: -50});
 import ScrollReveal from "scrollreveal";
 window.sr = ScrollReveal();
 
+Vue.component('mobile-nav', require('./components/Nav.vue'));
+
 const app = new Vue({
     el: '#app'
 });
