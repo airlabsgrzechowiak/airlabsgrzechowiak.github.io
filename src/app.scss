@@ -10,6 +10,14 @@ body {
   font-family: Lato;
 }
 
+a:focus, a:active, * {
+  outline: none !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 $golden: #CCA876;
 
 .golden {
@@ -74,7 +82,7 @@ $golden: #CCA876;
 
 .map-responsive {
   overflow:hidden;
-  padding-bottom:15.25%;
+  padding-bottom: 320px;
   position:relative;
   height:0;
 }

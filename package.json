@@ -9,6 +9,7 @@
     "loadash": "^1.0.0",
     "scrollreveal": "^3.3.6",
     "tachyons-sass": "^4.9.2",
+    "vue": "^2.5.13",
     "vue-scrollto": "^2.8.0"
   },
   "scripts": {

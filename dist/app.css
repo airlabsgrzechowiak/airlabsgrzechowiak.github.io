@@ -10863,6 +10863,16 @@ body {
   font-family: Lato;
 }
 
+a:focus,
+a:active,
+* {
+  outline: none !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 .golden {
   color: #CCA876;
 }
@@ -10907,7 +10917,7 @@ body {
 
 .map-responsive {
   overflow: hidden;
-  padding-bottom: 15.25%;
+  padding-bottom: 320px;
   position: relative;
   height: 0;
 }
