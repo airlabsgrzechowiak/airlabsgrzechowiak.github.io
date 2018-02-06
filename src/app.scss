@@ -14,3 +14,20 @@ $golden: #CCA876;
 .b--golden {
   border-color: $golden;
 }
+
+.shadow-page {
+  box-shadow: 0 -48px 31px 0 rgba(25, 35, 45, 1);
+}
+
+.Border__Box {
+  width: 30px;
+  @extend .bt, .b--golden, .mt2;
+}
+
+.lh-large {
+  line-height: 2rem;
+}
+
+.Section__Header {
+  @extend .f3, .fw6, .ttu, .black-80;
+}
