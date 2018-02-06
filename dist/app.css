@@ -10834,6 +10834,14 @@ code,
 
 */
 
+/* Media Queries */
+
+@custom-media --breakpoint-not-small screen and (min-width: 30em);
+
+@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+
+@custom-media --breakpoint-large screen and (min-width: 60em);
+
 body {
   font-family: Lato;
 }
@@ -10858,5 +10866,16 @@ body {
 
 .lh-large {
   line-height: 2rem;
+}
+
+@media screen and (min-width: 60em) {
+  #Section__About_White_Page {
+    margin-top: -150px;
+    height: 320px;
+  }
+
+  #Section__About_Content {
+    margin-top: -320px;
+  }
 }
 

@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600,700&subset=latin-ext");
 @import "~tachyons-sass/tachyons.scss";
 
+/* Media Queries */
+@custom-media --breakpoint-not-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+
 body {
   font-family: Lato;
 }
@@ -30,4 +35,15 @@ $golden: #CCA876;
 
 .Section__Header {
   @extend .f3, .fw6, .ttu, .black-80;
+}
+
+@media screen and (min-width: 60em) {
+  #Section__About_White_Page {
+    margin-top: -150px;
+    height: 320px;
+  }
+
+  #Section__About_Content {
+    margin-top: -320px;
+  }
 }
