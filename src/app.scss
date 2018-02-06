@@ -24,6 +24,10 @@ $golden: #CCA876;
   box-shadow: 0 -48px 31px 0 rgba(25, 35, 45, 1);
 }
 
+.shadow-card {
+  box-shadow: 0 -11px 33px 0 rgba(11, 16, 20, 1);
+}
+
 .Border__Box {
   width: 30px;
   @extend .bt, .b--golden, .mt2;
@@ -37,6 +41,10 @@ $golden: #CCA876;
   @extend .f3, .fw6, .ttu, .black-80;
 }
 
+.Section__Header_White {
+  @extend .f3, .fw5, .ttu, .white-90;
+}
+
 @media screen and (min-width: 60em) {
   #Section__About_White_Page {
     margin-top: -150px;
@@ -46,4 +54,20 @@ $golden: #CCA876;
   #Section__About_Content {
     margin-top: -320px;
   }
+
+  #Section__Contact_Card {
+    margin-top: -100px;
+  }
+}
+
+.Services__Item {
+  @extend .mb5;
+}
+
+.Services__Item h3 {
+  @extend .white, .f4, .fw5, .pb0, .mb2;
+}
+
+.Services__Item h4 {
+  @extend .white-50, .f6, .fw3, .i, .lh-copy, .mt0, .measure-narrow;
 }

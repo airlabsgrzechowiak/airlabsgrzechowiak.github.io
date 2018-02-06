@@ -4144,7 +4144,8 @@ code,
 
 */
 
-.i {
+.i,
+.Services__Item h4 {
   font-style: italic;
 }
 
@@ -4224,7 +4225,8 @@ code,
   font-weight: 200;
 }
 
-.fw3 {
+.fw3,
+.Services__Item h4 {
   font-weight: 300;
 }
 
@@ -4232,7 +4234,9 @@ code,
   font-weight: 400;
 }
 
-.fw5 {
+.fw5,
+.Section__Header_White,
+.Services__Item h3 {
   font-weight: 500;
 }
 
@@ -4813,7 +4817,8 @@ code,
   line-height: 1.25;
 }
 
-.lh-copy {
+.lh-copy,
+.Services__Item h4 {
   line-height: 1.5;
 }
 
@@ -6082,7 +6087,8 @@ code,
   color: rgba(0, 0, 0, 0.05);
 }
 
-.white-90 {
+.white-90,
+.Section__Header_White {
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -6098,7 +6104,8 @@ code,
   color: rgba(255, 255, 255, 0.6);
 }
 
-.white-50 {
+.white-50,
+.Services__Item h4 {
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -6158,7 +6165,8 @@ code,
   color: #f4f4f4;
 }
 
-.white {
+.white,
+.Services__Item h3 {
   color: #fff;
 }
 
@@ -7193,7 +7201,8 @@ code,
   padding-right: 16rem;
 }
 
-.pb0 {
+.pb0,
+.Services__Item h3 {
   padding-bottom: 0;
 }
 
@@ -7441,7 +7450,8 @@ code,
   margin-bottom: 0.25rem;
 }
 
-.mb2 {
+.mb2,
+.Services__Item h3 {
   margin-bottom: 0.5rem;
 }
 
@@ -7453,7 +7463,8 @@ code,
   margin-bottom: 2rem;
 }
 
-.mb5 {
+.mb5,
+.Services__Item {
   margin-bottom: 4rem;
 }
 
@@ -7465,7 +7476,8 @@ code,
   margin-bottom: 16rem;
 }
 
-.mt0 {
+.mt0,
+.Services__Item h4 {
   margin-top: 0;
 }
 
@@ -9825,7 +9837,8 @@ code,
 }
 
 .ttu,
-.Section__Header {
+.Section__Header,
+.Section__Header_White {
   text-transform: uppercase;
 }
 
@@ -9937,11 +9950,13 @@ code,
 }
 
 .f3,
-.Section__Header {
+.Section__Header,
+.Section__Header_White {
   font-size: 1.5rem;
 }
 
-.f4 {
+.f4,
+.Services__Item h3 {
   font-size: 1.25rem;
 }
 
@@ -9949,7 +9964,8 @@ code,
   font-size: 1rem;
 }
 
-.f6 {
+.f6,
+.Services__Item h4 {
   font-size: 0.875rem;
 }
 
@@ -10103,7 +10119,8 @@ code,
 
 /* Measure is limited to ~45 characters */
 
-.measure-narrow {
+.measure-narrow,
+.Services__Item h4 {
   max-width: 20em;
 }
 
@@ -10860,6 +10877,11 @@ body {
           box-shadow: 0 -48px 31px 0 #19232d;
 }
 
+.shadow-card {
+  -webkit-box-shadow: 0 -11px 33px 0 #0b1014;
+          box-shadow: 0 -11px 33px 0 #0b1014;
+}
+
 .Border__Box {
   width: 30px;
 }
@@ -10876,6 +10898,10 @@ body {
 
   #Section__About_Content {
     margin-top: -320px;
+  }
+
+  #Section__Contact_Card {
+    margin-top: -100px;
   }
 }
 
