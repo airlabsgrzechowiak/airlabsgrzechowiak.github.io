@@ -12,6 +12,7 @@
 
             <div class="ma4" v-show="active">
                 <img src="/img/logo.png" alt=""
+                     srcset="/img/logo.png 1x, /img/logo-2x.png 2x"
                      @click="active = false"
                      v-scroll-to="'#Site__Header'"
                      class="pointer">
